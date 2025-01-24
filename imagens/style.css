@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #EBDBCC;
+}
+
+header#a {
+    background-color: #2F2724;
+}
+
+header#b {
+    background-color: #5E211B;
+    color: white;
+    text-align: center;
+    margin: 21px;
+    position: relative;
+    top: -44px;
+    padding: 47px;
+}
+
+header#c {
+    background-color: #5E211B;
+    color: white;
+    text-align: center;
+    margin: 21px;
+    position: relative;
+    top: -44px;
+    padding: 47px;
+}
+
+header#d {
+    background-color: #5E211B;
+    color: white;
+    text-align: center;
+    margin: 21px;
+    position: relative;
+    top: -44px;
+    padding: 47px;
+}
+
+#c p {
+    font-size: 25px;
+}
+
+#c h1 {
+    font-size: 32px;
+    position: relative;
+    top: -10px;
+    white-space: nowrap;
+}
+
+#d h1 {
+    font-size: 32px;
+    position: relative;
+    top: -10px;
+}
+
+#d p {
+    font-size: 25px;  
+}
+
+header > h1 {
+    font-size: 32px;
+    position: relative;
+    top: -10px;
+}
+
+header > p {
+    font-size: 25px;
+}
+
+img#a {
+    display: block;
+    margin: 0 auto;
+}
+
+img#b {
+        margin-left: -57px;
+    position: relative;
+    top: 73px;
+}
+
+img#c {
+    position: relative;
+    top: -90px;
+}
+
+img#d {
+    position: relative;
+    top: -292px;
+    left: -190px;
+}
+
+img#e {
+    margin-top: -102px;
+    position: relative;
+    top: -216px;
+    left: 137px;
+}
+
+img#f {
+    display: block;
+    margin: 0 auto;
+    border-radius: 133px;
+}
+
+img#g {
+    display: block;
+    margin: 0 auto;
+    border-radius: 133px;
+}
+
+img#h {
+    display: block;
+    margin: 0 auto;
+    border-radius: 133px;
+}
+
+img#p {
+    display: block;
+    margin: 0 auto;
+}
+
+img#x {
+    position: relative;
+    top: 427px;
+    left: -83px;
+}
+
+h1#a {
+    text-align: center;
+    position: relative;
+    top: 49px;
+    font-size: 37px;
+
+}
+
+h1#b {
+    text-align: center;
+    top: -64px;
+    position: relative;
+}
+
+h1#w {
+    text-align: center;
+    position: relative;
+    top: -118px;
+
+}
+
+h1#e {
+    position: relative;
+    text-align: center;
+    top: 18px;
+}
+
+p#a {
+    text-align: center;
+    position: relative;
+    top: 82px;
+    font-size: 24px; 
+}
+
+p#p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+
+a#y {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    padding: 0px;
+    margin-top: 62px;
+    color: black;
+    text-decoration: auto;
+    border-radius: 58px;
+    background-color: #31d438;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
