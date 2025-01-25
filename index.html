@@ -1,23 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loja de Café</title>
     <link rel="stylesheet" href="imagens/style.css">
+
+    <link href="https://fonts.cdnfonts.com/css/bugaki" rel="stylesheet">
+
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>            
 </head>
 <body>
     <header id="a">
         <img id="a" src="imagens/logo-grande.png" alt="">
-        <a href="#">&#9776; Abrir</a>
-        <nav>
-            <a href="#">&times; Fechar</a>
+        <a id="u" onclick="abrirMenu()" href="#">&#9776; Abrir</a>
+        <nav id="menu">
+            <a href="#" onclick="fecharMenu()">&times; Fechar</a>
             <a href="">HOME</a>
             <a href="">MENU</a>
             <a href="">CONTACT</a>
         </nav>  
     </header>
-    <h1 id="a">Grãos da Cidade</h1>
+    <h1 id="a">Graos da Cidade</h1>
         <p id="a">Perfeito para um café com foco no café local e artesanal.</p>
         <img id="b" src="imagens/cafe-pequeno.png" alt="">
         
@@ -49,11 +53,12 @@
 
         <img id="x" src="imagens/grãos(2)-pequeno.png" alt="">
 
-        <h1 id="w">LOCALIZAÇÃO DA NOSSA CAFETERIA</h1>
+        <h1 id="w">LOCALIZACAO DA NOSSA CAFETERIA</h1>
         <img id="p" src="imagens/loja-pequena.jpg" alt="">
         <p id="p">Rua:blablablabla <br>
             Numero:976</p>
             <h1 id="e">Novidades quentinhas te esperando no <span style="color: #3BAB2D;">WhatsApp</span>! ☕ Descubra nossos novos cafés e promoções.</h1>
             <a id="y" href="">CLIQUE AQUI</a>
+            <script src="script.js"></script>
     </body>
 </html>

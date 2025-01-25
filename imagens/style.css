@@ -45,6 +45,7 @@ header#d {
 
 #c p {
     font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #c h1 {
@@ -52,31 +53,42 @@ header#d {
     position: relative;
     top: -10px;
     white-space: nowrap;
+    left: -10px;
+    font-family: 'Open Sans';
 }
 
 #d h1 {
     font-size: 32px;
     position: relative;
     top: -10px;
+    font-family: 'Open Sans';
+    left: 1px;
 }
 
 #d p {
     font-size: 25px;  
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header > h1 {
     font-size: 32px;
     position: relative;
     top: -10px;
+    font-family: 'Open Sans';
+    white-space: nowrap;
+    left: -7px;
 }
 
 header > p {
     font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 img#a {
     display: block;
     margin: 0 auto;
+    position: relative;
+    top: 8px;
 }
 
 img#b {
@@ -128,7 +140,7 @@ img#p {
 
 img#x {
     position: relative;
-    top: 427px;
+    top: 242px;
     left: -83px;
 }
 
@@ -136,47 +148,71 @@ h1#a {
     text-align: center;
     position: relative;
     top: 49px;
-    font-size: 37px;
-
+    font-size: 34px;
+    font-family: 'Bugaki', sans-serif;
+    white-space: nowrap;                                            
 }
 
 h1#b {
     text-align: center;
     top: -64px;
     position: relative;
+    font-family: 'Bugaki', sans-serif;
 }
 
 h1#w {
     text-align: center;
     position: relative;
     top: -118px;
-
+    font-family: 'Bugaki', sans-serif;
 }
 
 h1#e {
     position: relative;
     text-align: center;
     top: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 p#a {
     text-align: center;
     position: relative;
-    top: 82px;
-    font-size: 24px; 
+    top: 58px;
+    font-size: 24px;
+    font-family: arial;
 }
 
 p#p {
     text-align: center;
     font-weight: bold;
     font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
-    text-decoration: none;
+nav {
+    height: 100%;
+    width: 0px;
+    background-color: #2F2724;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+
+nav > a {
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 25px;
     display: block;
-    margin: 0 auto;
+    padding: 12px 10px 12px 32px;
+    transition: width 0.3s;
+}
+
+nav > a:hover {
+    background-color: white;
+    color: #2F2724;
 }
 
 a#y {
@@ -192,4 +228,11 @@ a#y {
     background-color: #31d438;
     font-size: 23px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+a#u {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
