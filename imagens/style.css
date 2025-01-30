@@ -392,7 +392,8 @@ a#y {
 }
 }
 
-@media screen and (min-width:768px) and (max-width:1366px) {
+@media screen and (min-width: 1080px) and (max-width: 1920px) {
+    
     img#b {
         margin-left: -57px;
         position: relative;
@@ -468,4 +469,5 @@ a#y {
     position: relative;
     left: -278px;
 }
+
 }
